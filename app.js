@@ -63,15 +63,12 @@ const sessionOptions = {
     },
 };
 
-// app.get("/", (req, res) => {
-//     res.send("Hi, i am root");
-// });
-
 app.use(session(sessionOptions));
 app.use(flash());
 
 app.use(passport.initialize());
 app.use(passport.session());
+
 passport.use(new LocalStrategy(User.authenticate()));
 
 passport.serializeUser(User.serializeUser());
@@ -80,19 +77,9 @@ passport.deserializeUser(User.deserializeUser());
 app.use((req, res, next) => {
     res.locals.success = req.flash("success");
     res.locals.error = req.flash("error");
-    res.locals.currUser = req.user();
+    res.locals.currUser = req.user;
     next();
 });
-
-// app.get("/demouser", async (req, res) => {
-//     let fakeUser = new User({
-//         email: "student@gmail.com",
-//         username: "delta-student",
-//     });
-
-//     let registeredUser = await User.register(fakeUser, "helloworld");
-//     res.send(registeredUser);
-// });
 
 app.use("/listings", listeningRouter);
 app.use("/listings/:id/reviews", reviewRouter);
