@@ -1,5 +1,5 @@
 # Wanderlust
-<h4><a href="https://major-project-jk4e.onrender.com">Visit the link to see the project</a></h4>
+<h4><a href="https://major-project-jk4e.onrender.com/listings">Visit the link to see the project</a></h4>
 
 This project is a clone of the Airbnb website, built using Node.js and Express.
 
