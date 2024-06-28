@@ -52,7 +52,7 @@ MAP_TOKEN=your-map-token
 ATLASDB_URL=atlas-url
 SECRET=your-secret
 ```
-<b>Note:</b>The .env file is not included in the repository for security reasons. Make sure to create it manually and add your own values.
+<b>Note:</b> The .env file is not included in the repository for security reasons. Make sure to create it manually and add your own values.
 
 ## Contributing
 
