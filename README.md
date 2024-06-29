@@ -15,7 +15,7 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/airbnb-clone.git](https://github.com/alfiyainamdar31/Wanderlust-Major-Project.git
+   https://github.com/alfiyainamdar31/Wanderlust-Major-Project.git
     ```
 
 2. Navigate to the project directory:
