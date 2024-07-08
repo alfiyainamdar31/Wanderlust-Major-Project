@@ -38,7 +38,7 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
     node app.js
     ```
 
-2. Open your browser and go to `http://localhost:8080`
+2. Open your browser and go to `http://localhost:3000`
 
 ## Environment Variables
 
