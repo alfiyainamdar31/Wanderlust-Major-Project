@@ -5,11 +5,11 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
 
 ## Table of Contents
 
+- [Technologies](#Technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
-- [Technologies](#Technologies)
 
 ## Technologies
 
