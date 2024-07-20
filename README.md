@@ -9,6 +9,26 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
 - [Usage](#usage)
 - [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
+- [Technologies](#Technologies)
+
+## Technologies
+
+1. Node.js: JavaScript runtime environment.
+2. Express: Web framework for Node.js.
+3. EJS: Embedded JavaScript templating.
+4. MongoDB: NoSQL database for data storage.
+5. Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js.
+6. Passport: Authentication middleware for Node.js.
+7. Connect-Flash: Flash message middleware for Express.
+8. Connect-Mongo: MongoDB session store for Express.
+9. Cookie-Parser: Middleware to parse cookies.
+10. Dotenv: Module to load environment variables from a .env file.
+11. Multer: Middleware for handling multipart/form-data.
+12. Cloudinary: Cloud service for image and video storage.
+13. Mapbox SDK: Geolocation services.
+14. Joi: Data validation library.
+15. Method-Override: Middleware to use HTTP verbs such as PUT or DELETE.
+16. Path: Utility module for working with file and directory paths.
 
 ## Installation
 
@@ -21,7 +41,7 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
 2. Navigate to the project directory:
 
     ```bash
-    cd major project
+    cd Wanderlust Major Project
     ```
 
 3. Install the dependencies:
