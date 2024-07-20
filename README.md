@@ -16,7 +16,7 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
 1. Node.js: JavaScript runtime environment.
 2. Express: Web framework for Node.js.
 3. EJS: Embedded JavaScript templating.
-4. MongoDB: NoSQL database for data storage.
+4. MongoDB: Database for data storage.
 5. Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js.
 6. Passport: Authentication middleware for Node.js.
 7. Connect-Flash: Flash message middleware for Express.
