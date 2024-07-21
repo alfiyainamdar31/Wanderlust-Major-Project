@@ -41,7 +41,7 @@ This project is a clone of the Airbnb website, built using Node.js and Express.
 2. Navigate to the project directory:
 
     ```bash
-    cd Wanderlust Major Project
+    cd Wanderlust-Major-Project
     ```
 
 3. Install the dependencies:
